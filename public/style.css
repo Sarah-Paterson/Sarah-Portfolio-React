@@ -8,7 +8,8 @@
 }
 
 body {
-    background: rgb(30, 30, 30);
+    /* background: rgb(0, 110, 127); */
+    background-image: linear-gradient(rgb(0, 110, 127), rgb(0, 48, 53));
     color: white;
     overflow: hidden;
     overflow-y: scroll;
