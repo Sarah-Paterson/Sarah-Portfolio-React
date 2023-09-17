@@ -37,10 +37,13 @@
     color: rgb(0, 243, 255);
 }
 
-.introPara {
-    font-size: medium;
+.introText {
+    line-height: 2.75rem;
+}
+
+.introTitle {
     font-weight: 300;
-    letter-spacing: 1px;
+    font-size: 2rem;
 }
 
 .btn {

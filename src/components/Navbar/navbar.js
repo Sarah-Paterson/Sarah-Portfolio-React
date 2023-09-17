@@ -15,7 +15,7 @@ const Navbar = () => {
                 <Link to='intro' activeClass='active'  spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
                 <Link to='about' activeClass='active'  spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
                 <Link to='works' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</Link>
-                <Link to='clients' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link>
+                <Link to='clients' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Resume</Link>
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link to='intro' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >Home</Link>
                 <Link to='about' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >About</Link>
                 <Link to='works' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >Portfolio</Link>
-                <Link to='clients' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >Clients</Link>
+                <Link to='clients' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >Resume</Link>
                 <Link to='contact' activeClass='active' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() =>setShowMenu(false)} >Contact</Link>
             </div>
         </nav>
